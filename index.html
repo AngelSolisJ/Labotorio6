@@ -3,12 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Página con Navbar Bootstrap</title>
+    <link rel="stylesheet" href="CSS/Estilo de index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 <body>
-    <h1>Soy un tablero de basquetbol</h1>
-    <p>La altura reglamentaria del tablero de basquetbol es de 3.05m </p>
-    <p>Me llamo tuz</p>
-    <img src="nba.jpg" alt="">
+
+   
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <div class="container">
+        <button type="button" class="btn-close" aria-label="Close"></button>
+        <a class="navbar-brand" href="" >NBA</a> 
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#">Inicio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina1.html">Pagina1</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina2.html">Pagina2</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="pagina3.html">Pagina3</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container mt-5">
+
+    <h1 class="titulo">La historia de la NBA</h1>
+    <p>La NBA es fundada el 6 de junio de 1946 como la "Basketball Assosation of America" y adopto su nombre actual en 1949, tras la union de varios clubes de la desesperada 'National Basketball League'.
+    Esta competición ha vivido una amplia y prolongada evolución a lo largo de 75 años, formando en la actualidad una liga compuesta por 30 franquicias, situadas en Estados Unidos y Canadá.</p>
+    <p>El partido para inaugurar la NBA fue un encuentro entre los NEW YORK KNICKS vs TORONTO HUSKIES (en estos tiempos es Toronto Raptors) el 1ero de noviembre de 1946. </p>
+    <p>La irrupción del gran Michael Jordan, probablemente el mejor jugador de la historia de la NBA, ayudó a que el interés internacional por la NBA no decayera tras las retiradas de Bird y Magic.</p>
+
+</div>
+
+    <!-- Carrusel de imágenes -->
+    <div id="mi-carrusel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="IMG/Logo NBA.jpg" class="d-block w-100" alt="Imagen 1">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/Jordan.jpeg" class="d-block w-100" alt="Imagen 2">
+            </div>
+            <div class="carousel-item">
+                <img src="IMG/CANCHA KNICKS.jpg" class="d-block w-100" alt="Imagen 3">
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#mi-carrusel" role="button" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#mi-carrusel" role="button" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Siguiente</span>
+        </a>
+    </div>
+</div>
+<p>A continiacion veremos a mi opinion mis equipos con sus respectivos jugadores favoritos</p>
+
+<a href="pagina1.html">Warriors</a>
+<a href="pagina2.html">Chicago Bulls</a>
+<a href="pagina3.html">Jugadores favoritos</a>
+
+
+
+
+<!-- Agrega el enlace al archivo JavaScript de Bootstrap al final del cuerpo -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

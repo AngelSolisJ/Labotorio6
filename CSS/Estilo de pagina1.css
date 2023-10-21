@@ -1,0 +1,13 @@
+#mi-carrusel {
+    max-width: 300px; 
+    margin: 0 auto; 
+}
+
+#mi-carrusel img {
+    max-height: 400px; 
+    width: auto; 
+}
+
+.titulo{
+    color: blue;
+}

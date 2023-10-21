@@ -1,0 +1,18 @@
+#mi-carrusel {
+    max-width: 500px; 
+    margin: 0 auto; 
+}
+
+#mi-carrusel img {
+    max-height: 350px; 
+    width: auto; 
+}
+.titulo{
+    color: red;
+}
+
+.logoNBA{
+    height: 35px;
+    width: auto;
+}
+
